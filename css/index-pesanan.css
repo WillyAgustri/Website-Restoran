@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.back{
+    padding: 20px;
+    background-color: white;
+}
+
+.back a{
+    color: rgba(95, 65, 25);
+    text-decoration: none;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.back a:hover{
+    text-decoration: none;
+}
+
+.main-c{
+    height: 100vh;
+    background: linear-gradient(rgba(95, 65, 25, 0.30), rgb(25, 12, 5)), url(../images/restoran.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    flex-direction: column;
+}
+
+.main-c h1{
+    color: white;
+    font-size: 64px;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+
+.table-w{
+    width: 70%;
+    padding: 20px;
+}
+
+.table-w table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid white;
+}
+
+.table-w th, .table-w td{
+    padding: 10px;
+    text-align: left;
+}
+
+.table-w th{
+    background-color: rgb(53, 30, 21);
+    color: white;
+}
+
+.table-w tr:nth-child(odd){
+    background-color: white;
+}
+
+.table-w tr:nth-child(even){
+    background-color: rgb(219, 228, 236);
+}
+
+.table-w .nama-menu{
+    padding-left: 3.5vw;
+}
+
+.aksi{
+    display: flex;
+    justify-content: center;
+}
+
+.del-btn{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.confirm-btn{
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(19, 170, 19);
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.confirm-btn:hover{
+    background-color: green;
+    scale: 95%;
+}
+
+.bill-c{
+    width: 40vw;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.date-uid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 2px solid grey;
+}
+
+.list-pesanan{
+    padding: 10px;
+    border-bottom: 2px solid grey;
+}
+
+.list-pesanan table{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.list-pesanan td{
+    padding: 3px 0px 10px 3px;
+}
+
+.total{
+    text-align: right;
+}
+
+.total-bayar{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    border-bottom: 2px solid grey;
+}
+
+.total-beli{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.total-beli p{
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.diskon{
+    display: flex;
+    justify-content: right;
+    color: red;
+    font-size: 20px;
+    margin: 10px 0px 20px 0px;
+}
+
+.total-tagihan{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: 20px 0px 50px 0px;
+}
+
+.total-tagihan p{
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.confirm-btn-c form{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-bayar{
+    width: 20vw;
+    padding: 13px;
+}
